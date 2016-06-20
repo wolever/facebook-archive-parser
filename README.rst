@@ -8,6 +8,10 @@ Currently supports parsing messages and exporting them to TSV.
 
 Archive download instructions: https://www.facebook.com/help/131112897028467/
 
+Example
+-------
+
+See the example Jupyter notebook: https://github.com/wolever/facebook-archive-parser/blob/master/example.ipynb
 
 Usage
 -----
@@ -16,7 +20,7 @@ Exporting messages to TSV::
 
     $ pypy fbarchive.py archive/html/messages.html
     ...
-    299k messages exported in 53s:
+    299k messages exported in 17s (17217 msgs/sec):
         archive/html/messages-text.tsv
         archive/html/messages-threads.tsv
         archive/html/messages-users.tsv
